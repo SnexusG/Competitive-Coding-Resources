@@ -1,3 +1,4 @@
+#use this to clear the unncessary files after a contest
 import os
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 for file in files:
