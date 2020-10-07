@@ -1,3 +1,5 @@
+//MY TEMPLATE FOR COMPETITIVE CODING CONTESTS
+
 #include<bits/stdc++.h>
 using namespace std;
 template <typename T> void print(T t) { cout<<t<<endl; }    
