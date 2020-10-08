@@ -12,6 +12,8 @@
         - [Codeforces](#codeforces)
         - [AtCoder](#atcoder)
         - [Codechef](#codechef)
+    - [Create and Maintaining your template](#template)
+        - [C++](#cpp-template)
 2. [Getting better at competitive programming](#getting-better)
     - [Upsolving](#upsolving)
     - [Hoping between websites](#different-websites)
