@@ -30,8 +30,9 @@
   Programming, at its core is problem solving using code. Competitive programming makes it a sport where you compete with other people to solve some in a limited time period. As per [Wikipedia](https://en.wikipedia.org/wiki/Competitive_programming), "Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications."
 
   You will be given a problem statement similar to [this](https://codeforces.com/problemset/problem/4/A)
-   <p align="center"> <a href="https://github.com/SnexusG/Competitive-Coding-Resources/tree/master/images"> 
-<img src="./cpp_roadmap.PNG" alt="cpp road map"> </a> </p>
+
+   <img src="/images/problem_example.png" alt="example_problem" style="height: 100px; width:100px;"/>
+
 <!---
 COMMENTS
 codeforces practice extension : https://chrome.google.com/webstore/detail/codeforces-practice-track/cnahgdhboflcnojgmeehhhfeoojifonm
