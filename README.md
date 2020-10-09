@@ -33,6 +33,34 @@
 
    <img src="/images/problem_example.png" alt="example_problem" style="height: 100px; width:100px;"/>
 
+  If you observe carefully, the problem statement can be summarised to : 
+  Print "Yes" if the number is even, else print "No". This is one of the skills you'll need to get good at i.e. - Reading problems. 
+
+  The solution for the above program can be simply written in C++ as 
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n;
+    cin>>n;
+    if(n%2){
+        cout<<"YES"<<endl;
+    }else{
+        cout<<"No"<<endl;
+    }
+}
+```
+
+  Along with the sample test cases given with the problem, your code will be judged against multiple secret cases and will be accepted only when it gives correct result for all of them under the given constraints (time and memory).
+
+  So Competitive Programming consists of :
+  1. Reading the given problem statement 
+  2. Identifying the underlying problem
+  3. Writing code which will give correct answer for all the test cases in the given time and memory limit.
+
+  The competitive aspect to this problem solving sport comes from competing against other users. Your score will depend upon the number of times you submit an incorrect solution and the time at which your code is accepted.
 <!---
 COMMENTS
 codeforces practice extension : https://chrome.google.com/webstore/detail/codeforces-practice-track/cnahgdhboflcnojgmeehhhfeoojifonm
