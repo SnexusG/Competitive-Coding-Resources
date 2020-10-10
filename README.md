@@ -5,7 +5,7 @@
 1.  [Getting started with Competitive Programming](#getting-started-with-competitive-programming)
      - [What is Competitive Programming](#What-is-competitive-programming)
     - [Choosing a Programming Language](#choosing-a-programming-language)
-    - [Choosing your online judge](#online-judge)
+    - [Choosing your online judge](#choosing-your-online-judge)
     - [Create and Maintaining your template](#template)
 2. [Getting better at competitive programming](#getting-better)
     - [Upsolving](#upsolving)
@@ -65,8 +65,26 @@ codeforces visualizer : https://cfviz.netlify.app/
 
    <img src="/images/speed_comparision.png" alt="speed_comparision" style="height: 100px; width:100px;"/>
 
+  (the above image is sourced from : [this repo](https://github.com/niklas-heer/speed-comparison))
+
    You can pretty much choose any of the popular languages as most coding sites support a lot of them. Having said that, I have had some bad experiences with Python. I was using python for the first couple months but then I got TLE (time limit exceed error) for a problem. When i wrote the same code in C++, it passed.
 
-   Along with the speed of a language, when you are starting out, it is als important for the language to be used by most competitive programmers as reading other's code after a contest helps a lot in improving.
+   Along with the speed of a language, when you are starting out, it is also important for the language to be used by most competitive programmers as reading other's code after a contest helps a lot in improving.
 
    So If you aren't super attached to any language, it is always beneficial to use C++. With the STL library, coding in C++ feels just like coding in any modern higher level language (with respect to competitive coding atleast :D).
+
+
+### Choosing your online judge
+
+  An online judge is an online system to test programs in programming contests. They are also used to practice for such contests. 
+  
+  [Here](https://codeforces.com/blog/entry/59804) is a nice discussion to help you compare different online judges.
+
+  [Codeforces](https://codeforces.com/) is one of the most famous online judges in the world. Currently, there are 5000+ problems. It has (most of the time) good problems with frequent contests, quick rating changes (withing a day) as well as a very supportive community. It is the main coding platform I prefer.
+
+  It is also important to not just stick with one website, but instead, practice on different websties as you can fill the gap between two contests on your favorite website, by participating in other website's contests. 
+  More on that [here](#hoping-between-websites).
+
+  If you aren't sure which one to go with, I would recommend codeforces. Once you get the hang of competing online, you can later easily transition to using different websites.
+  
+
