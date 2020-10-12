@@ -3,7 +3,6 @@
 
 ## Table of Content
 - [Competitive Coding Resources](#competitive-coding-resources)
-    - [This comprises of all the resources for competitive coding that I've come across](#this-comprises-of-all-the-resources-for-competitive-coding-that-ive-come-across)
   - [Table of Content](#table-of-content)
   - [Getting Started with Competitive Programming](#getting-started-with-competitive-programming)
     - [What is Competitive Programming](#what-is-competitive-programming)
