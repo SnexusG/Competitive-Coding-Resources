@@ -10,6 +10,15 @@
     - [Choosing a Programming Language](#choosing-a-programming-language)
     - [Choosing your online judge](#choosing-your-online-judge)
     - [Creating and Maintaining your template](#creating-and-maintaining-your-template)
+  - [Getting better at competitive programming](#getting-better)
+    - [Upsolving](#upsolving)
+    - [Hoping between websites](#different-websites)
+    - [Theorotical DSA vs Practice](#patience)
+    - [Resources](#resources)
+        - [Youtube Channels](#youtube-channels)
+        - [Discord Servers](#discord-channels)
+        - [Subreddits](#sub-reddit)
+        - [Useful Codeforces Blogs](#codeforces-blogs
 
 ---
 ## Getting Started with Competitive Programming
