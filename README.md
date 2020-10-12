@@ -2,23 +2,16 @@
 ### This comprises of all the resources for competitive coding that I've come across 
 
 ## Table of Content
-1.  [Getting started with Competitive Programming](#getting-started-with-competitive-programming)
-     - [What is Competitive Programming](#What-is-competitive-programming)
+- [Competitive Coding Resources](#competitive-coding-resources)
+    - [This comprises of all the resources for competitive coding that I've come across](#this-comprises-of-all-the-resources-for-competitive-coding-that-ive-come-across)
+  - [Table of Content](#table-of-content)
+  - [Getting Started with Competitive Programming](#getting-started-with-competitive-programming)
+    - [What is Competitive Programming](#what-is-competitive-programming)
     - [Choosing a Programming Language](#choosing-a-programming-language)
     - [Choosing your online judge](#choosing-your-online-judge)
-    - [Create and Maintaining your template](#template)
-2. [Getting better at competitive programming](#getting-better)
-    - [Upsolving](#upsolving)
-    - [Hoping between websites](#different-websites)
-    - [Theorotical DSA vs Practice](#patience)
-    - [Resources](#resources)
-        - [Youtube Channels](#youtube-channels)
-        - [Discord Servers](#discord-channels)
-        - [Subreddits](#sub-reddit)
-        - [Useful Codeforces Blogs](#codeforces-blogs)
-3. [??](#profit)
+    - [Creating and Maintaining your template](#creating-and-maintaining-your-template)
 
-
+---
 ## Getting Started with Competitive Programming
 
 ### What is Competitive Programming 
@@ -61,6 +54,8 @@ COMMENTS
 codeforces practice extension : https://chrome.google.com/webstore/detail/codeforces-practice-track/cnahgdhboflcnojgmeehhhfeoojifonm
 codeforces visualizer : https://cfviz.netlify.app/
 -->
+
+---
 ### Choosing a Programming Language
 
    <img src="/images/speed_comparision.png" alt="speed_comparision" style="height: 100px; width:100px;"/>
@@ -73,7 +68,7 @@ codeforces visualizer : https://cfviz.netlify.app/
 
    So If you aren't super attached to any language, it is always beneficial to use C++. With the STL library, coding in C++ feels just like coding in any modern higher level language (with respect to competitive coding atleast :D).
 
-
+---
 ### Choosing your online judge
 
   An online judge is an online system to test programs in programming contests. They are also used to practice for such contests. 
@@ -86,5 +81,29 @@ codeforces visualizer : https://cfviz.netlify.app/
   More on that [here](#hoping-between-websites).
 
   If you aren't sure which one to go with, I would recommend codeforces. Once you get the hang of competing online, you can later easily transition to using different websites.
+
+---
+### Creating and Maintaining your template
+
+
+ After you solve few problems you'll realise that a lot of the times you end up writing some code that you used in a previous contest. For example, you can have two different problems that require you to check if the number is prime in order to arrive at a solution. 
+
+ In such cases having prewritten code snippets for such similar tasks in your cpp file can save you a lot of time. A template is like a boiler plate code upon which you start writing your solutions.
+
+ Not only this, but if you're using cpp (or even java for that matter) which requires you to write a lot of code (compared to a language like python), it is always useful to define some excessively used code snippets as shorter statements. This will also help you in saving time.
+ 
+ For example,
+ ```c++
+ #define printVec(vec) for(int i = 0; i < vec.size(); ++i)cout<<vec[i]<<" "; cout<<endl
+ ```
+ The above snippet lets me print a vector by simply passing it to printVec() as an arguement.
+
+
+ As you solve more problems you will keep adding more functionality to your template, like a prewritten function for running dfs/bfs given a graph as an input can help you save a lot of time.
+
+
+ If you don't know where to start when creating a template, I have provided my [template](https://github.com/SnexusG/Competitive-Coding-Resources/blob/master/contest/template.cpp) in this repository. I keep updating it as well. Along with it there also a [clear.py](https://github.com/SnexusG/Competitive-Coding-Resources/blob/master/contest/clear.py) file which basically deletes all the files except itself and the template when run. I use it to delete unwanted code files after a contest.
+
+
   
 
