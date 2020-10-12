@@ -18,7 +18,7 @@
         - [Youtube Channels](#youtube-channels)
         - [Discord Servers](#discord-channels)
         - [Subreddits](#sub-reddit)
-        - [Useful Codeforces Blogs](#codeforces-blogs
+        - [Useful Codeforces Blogs](#codeforces-blogs)
 
 ---
 ## Getting Started with Competitive Programming
