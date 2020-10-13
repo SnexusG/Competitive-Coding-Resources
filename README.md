@@ -123,4 +123,4 @@ Here are some useful resources :
 - [Problems to upsolve as per your rating](http://a2oj.com/ladders)
 - [Codeforces Upsolving Helper](https://codeforces.com/blog/entry/79917)
 - [Upsolve.me](https://codeforces.com/blog/entry/79151)
-- [How to become a red coder](#https://www.youtube.com/watch?v=y7169jEvb-Y)
+- [How to become a red coder](https://www.youtube.com/watch?v=y7169jEvb-Y)
