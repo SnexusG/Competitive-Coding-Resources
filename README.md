@@ -7,7 +7,7 @@
     - [Choosing a Programming Language](#choosing-a-programming-language)
     - [Choosing your online judge](#choosing-your-online-judge)
     - [Creating and Maintaining your template](#creating-and-maintaining-your-template)
-  - [Getting better at competitive programming](#getting-better)
+  - [Getting better at competitive programming](#getting-better-at-competitive-programming)
     - [Upsolving](#upsolving)
     - [Hoping between websites](#different-websites)
     - [Theorotical DSA vs Practice](#patience)
@@ -110,6 +110,16 @@ codeforces visualizer : https://cfviz.netlify.app/
 
  If you don't know where to start when creating a template, I have provided my [template](https://github.com/SnexusG/Competitive-Coding-Resources/blob/master/contest/template.cpp) in this repository. I keep updating it as well. Along with it there also a [clear.py](https://github.com/SnexusG/Competitive-Coding-Resources/blob/master/contest/clear.py) file which basically deletes all the files except itself and the template when run. I use it to delete unwanted code files after a contest.
 
+---
+## Getting better at competitive programming
 
-  
+### Upsolving
 
+When you participate in contests, it is very difficult to solve all the problems. In simple words, upsolving is solving problems that you were not able to solve during the contest. Usually its a good idea to solve the easiest 2 unsolved problems from the contest. This helps you learn new techniques and lets you understand where you are lacking.
+
+Here are some useful resources : 
+
+- [Discussion on understanding editorials and uplosving](https://codeforces.com/blog/entry/18757)
+- [Problems to upsolve as per your rating](http://a2oj.com/ladders)
+- [Codeforces Upsolving Helper](https://codeforces.com/blog/entry/79917)
+- [Upsolve.me](https://codeforces.com/blog/entry/79151)
