@@ -9,6 +9,7 @@
     - [Creating and Maintaining your template](#creating-and-maintaining-your-template)
   - [Getting better at competitive programming](#getting-better-at-competitive-programming)
     - [Upsolving](#upsolving)
+    - [Solving by tags](#solving-by-tags)
     - [Hoping between websites](#different-websites)
     - [Theorotical DSA vs Practice](#patience)
     - [Resources](#resources)
