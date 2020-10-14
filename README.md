@@ -124,4 +124,17 @@ Here are some useful resources :
 - [Problems to upsolve as per your rating](http://a2oj.com/ladders)
 - [Codeforces Upsolving Helper](https://codeforces.com/blog/entry/79917)
 - [Upsolve.me](https://codeforces.com/blog/entry/79151)
-- [How to become a red coder](https://www.youtube.com/watch?v=y7169jEvb-Y)
+- [How to become a red coder by Erichto](https://www.youtube.com/watch?v=y7169jEvb-Y)
+- [Upsolving tips by rachit jain](https://www.youtube.com/watch?v=X-2OUqnUH6U)
+
+---
+
+### Solving by tags
+
+This is useful especially when you have just started with competitive coding and don't have much experience with using dsa in problem solving. On most coding websites you can filter problems by tags e.g. trees, adhoc, math, dp, graphs, etc. 
+
+   <img src="/images/tags.png" alt="problem tags" style="height: 100px; width:100px;"/>
+
+
+After filtering by tag some websites (e.g. codeforces) also allow you to sort the problems on basis of number of people who solved it successfullyy or the difficulty rating of the problem. Some people prefer sorting by number of solutions submitted, but in my experience sorting by difficulty proves more effective as the first few problems when sorted by difficulty are very basic fundamental problems about that topic that help to get your basics strong.
+
