@@ -10,7 +10,7 @@
   - [Getting better at competitive programming](#getting-better-at-competitive-programming)
     - [Upsolving](#upsolving)
     - [Solving by tags](#solving-by-tags)
-    - [Hoping between websites](#different-websites)
+    - [Hoping between websites](#hoppine-betwenn-websites)
     - [Theorotical DSA vs Practice](#patience)
     - [Resources](#resources)
         - [Youtube Channels](#youtube-channels)
@@ -137,4 +137,21 @@ This is useful especially when you have just started with competitive coding and
 
 
 After filtering by tag some websites (e.g. codeforces) also allow you to sort the problems on basis of number of people who solved it successfullyy or the difficulty rating of the problem. Some people prefer sorting by number of solutions submitted, but in my experience sorting by difficulty proves more effective as the first few problems when sorted by difficulty are very basic fundamental problems about that topic that help to get your basics strong.
+
+---
+
+### Hopping Between Websites
+
+
+Sticking to a single website as your main competing portal is good, but often, different websites have different advantages.
+
+In my exxperience, If you are just starting out, then solving [Atcoder](atcoder.jp) Begineer contests is helpful as it directly tells you what you have to do instead of revolving the problem around a story.
+
+[Codechef](https://www.codechef.com/) has long challenges lasting 10 days to a month where you can take your time to learn a concept when encountered in a problem, and then apply it to solve it.
+
+My intention here is not just to amplify the boons of a particular website (although my bias towards codeforces should be pretty obvious by now). 
+
+A good strategy is to have a main website where you try to increase your rating but depending on the type of practice that suits you, it might be helpful to use other websites as well.
+
+---
 
