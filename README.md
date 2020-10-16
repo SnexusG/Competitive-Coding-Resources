@@ -10,7 +10,7 @@
   - [Getting better at competitive programming](#getting-better-at-competitive-programming)
     - [Upsolving](#upsolving)
     - [Solving by tags](#solving-by-tags)
-    - [Hoping between websites](#hoppine-betwenn-websites)
+    - [Hoping between websites](#hopping-between-websites)
     - [Theorotical DSA vs Practice](#patience)
     - [Resources](#resources)
         - [Youtube Channels](#youtube-channels)
