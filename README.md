@@ -1,6 +1,6 @@
 # Competitive Coding Resources
 ### This comprises of all the resources for competitive coding that I've come across 
-
+# This only exists in temp+branch
 ## Table of Content
   - [Getting Started with Competitive Programming](#getting-started-with-competitive-programming)
     - [What is Competitive Programming](#what-is-competitive-programming)
@@ -10,7 +10,7 @@
   - [Getting better at competitive programming](#getting-better-at-competitive-programming)
     - [Upsolving](#upsolving)
     - [Solving by tags](#solving-by-tags)
-    - [Hoping between websites](#hoppine-betwenn-websites)
+    - [Hoping between websites](#hopping-between-websites)
     - [Theorotical DSA vs Practice](#patience)
     - [Resources](#resources)
         - [Youtube Channels](#youtube-channels)
