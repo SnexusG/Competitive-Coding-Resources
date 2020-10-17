@@ -11,8 +11,8 @@
     - [Upsolving](#upsolving)
     - [Solving by tags](#solving-by-tags)
     - [Hoping between websites](#hopping-between-websites)
-    - [Theorotical DSA vs Practice](#patience)
-    - [Resources](#resources)
+    - [Theorotical DSA vs Practice](#theorotical-dsa-vs-practice)
+    - [Resources to follow](#resources-to-follow)
         - [Youtube Channels](#youtube-channels)
         - [Discord Servers](#discord-channels)
         - [Subreddits](#sub-reddit)
@@ -155,3 +155,12 @@ A good strategy is to have a main website where you try to increase your rating 
 
 ---
 
+### Theorotical DSA vs Practice
+
+You are not going to be able to solve few questions in the begining irrespective of how hard you think. Chances are, you aren't familiar with the optimal data structure or algorithm required to solve the problem under given constraints. 
+
+Learning Data structures and Algorithms is obviously important for becoming good at competitive programming. But, it is also important to not waste time in learning techniques too advanced. A good ratio of solving problems vs learning DSA would be, for every 50 mins spend on problem solving, spend 10 mins on DSA. The DSA time will only decrease as you progress ahead.
+
+[Here's](https://www.youtube.com/watch?v=bVKHRtafgPc) a video by William Lin explaining it further along with other beginner tips.
+
+---
