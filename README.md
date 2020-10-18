@@ -166,3 +166,22 @@ Learning Data structures and Algorithms is obviously important for becoming good
 [GeeksForGeeks](https://www.geeksforgeeks.org/) is also a great website to learn DSA.
 
 ---
+
+## Resources To Follow
+---
+
+### Youtube Channels 
+
+
+| Youtube Handle |    Channel Description    |
+|---------- |:-------------:|
+| [William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)  | International Grandmaster On Codeforces. His videos mostly consist of screencast of his contests along with some random videos centered around competitive coding| 
+| [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)  |    The undisputed top contributor on codeforces. Videos on intermediate to advanced algorithmic topics along with frequent contest screencast  |
+| [Second Thread](https://www.youtube.com/channel/UCXbCohpE9IoVQUD2Ifg1d1g/videos)  | Grandmaster on Codeforces. Most of his videos are screencast of his contest with good commentary where he often thinks out loud while coming up with a solution |  
+| [Rachit Jain](https://www.youtube.com/channel/UC9fDC_eBh9e_bogw87DbGKQ)  | Got into Microsoft as an SDE after his degree in EE from IIT roorkee. His videos focus mostly on DS/ALGO and interview preparation | 
+| [Code explainer](https://www.youtube.com/channel/UCU4WrdDLKNSnV0jiiUbKong)  | Video tutorials to div2/3 codeforces rounds, some atcoder contests as well as leet code problems |   
+| [Codechef](https://www.youtube.com/user/codechefofficial/videos)  | Official Youtube channel of Codechef | 
+| [Code with Demoralizer](https://www.youtube.com/channel/UCGS5ZzcSAymQbWZvNoKOFhQ/videos)  | ICPC world finalist. Video Tutorials for Codeforces problems with advice for getting better at competitive coding | 
+| [Code Buddy Official](https://www.youtube.com/channel/UC8Is5LaVSoiO4DYmgi11kfw)  | DS/ALGO/C++ STL tutorials | 
+| [take U forward](https://www.youtube.com/channel/UCJskGeByzRRSvmOyZOz61ig)  | DS/ALGO for placement preparation | 
+| [Hackerrank](https://www.youtube.com/channel/UCOf7UPMHBjAavgD0Qw5q5ww)  | Official Youtube Channel of Hackerrank | 
