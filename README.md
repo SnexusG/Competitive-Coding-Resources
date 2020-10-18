@@ -1,5 +1,5 @@
 # Competitive Coding Resources
-### This comprises of all the resources for competitive coding that I've come across 
+### This comprises of all the resources for competitive coding that I've come across  along with some begineer tips on getting started with competitive programming
 
 ## Table of Content
   - [Getting Started with Competitive Programming](#getting-started-with-competitive-programming)
