@@ -22,8 +22,10 @@ ll n = 0, t = 0;
 ll small = -1e18, big = 1e18;
 const ll mod=1000000007;
 map<ll,ll> occ;
+const ll N = 2e5;
 map<pair<ll,ll>,ll> occP;
-//global variables end
+// vector<vector<ll>> path(N);
+//global variables end  
 
 ll factorial(int n){
     long long ans = 1;
@@ -67,7 +69,15 @@ void print2dVec(vector<vector<ll>> v){
         print("");
     }
 }
+
+// void dfs(int curr, int par){
+//     for(int child : path[curr]){
+//         if(child == par)continue;
+//         dfs(child,curr);
+//     }
+// }
 //useful functions end
+
 
 int main(){
     IOS;    
