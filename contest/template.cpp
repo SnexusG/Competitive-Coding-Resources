@@ -14,7 +14,7 @@ template <typename T> void print(T t) { cout<<t<<endl; }
 #define vii vector<pair<int,int>>
 #define vlll vector<pair<ll,lla>>
 #define get(a, n)    for(ll it = 0; it < n; it++)    cin>>a[it];
-//creating a 2d vector containing n vectors of size m each : vector<vector<ll> > vec( n , vector<ll> (m, 0));
+//creating a 2d vector containing n vectors of size m each : vector<vll> vec(n, vll(m,0));
 //ascii of a is 97
 //creating a vector with elements : vector<long long> arr{1,2,3,4};
 
@@ -70,6 +70,17 @@ void print2dVec(vector<vector<ll>> v){
     }
 }
 
+//gives all factors for a number (including non prime)
+void seive(set<ll>&v, ll n){
+         v.insert(n);
+         for(int i=2;i*i<=n;i++){
+            if(n%i==0) {
+                v.insert(i);
+                if(i!=n/i) v.insert(n/i);
+         }
+     }
+} 
+
 // void dfs(int curr, int par){
 //     for(int child : path[curr]){
 //         if(child == par)continue;
@@ -78,6 +89,20 @@ void print2dVec(vector<vector<ll>> v){
 // }
 //useful functions end
 
+bool check(ll val){
+    return false;
+}
+ll binsearch(ll low, ll high){
+    while(low < high){
+        ll mid = (low+high)/2;
+        if(check(mid)){
+            high = mid;
+        }else{
+            low = mid+1;
+        }
+    }
+    return low; //change this to high for upper bound (if element found then low and high both are correct)
+}
 
 int main(){
     IOS;    
