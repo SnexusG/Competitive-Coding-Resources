@@ -17,6 +17,8 @@ template <typename T> void print(T t) { cout<<t<<endl; }
 //creating a 2d vector containing n vectors of size m each : vector<vll> vec(n, vll(m,0));
 //ascii of a is 97
 //creating a vector with elements : vector<long long> arr{1,2,3,4};
+//converting string to num : stringstream geek(s); int x = 0; geek >> x; 
+    
 
 ll n = 0, t = 0;
 ll small = -1e18, big = 1e18;
@@ -52,7 +54,7 @@ bool sortVec( const vector<ll>& v1, const vector<ll>& v2 ) {
 } 
 
 bool isprime(ll p){
-    for(int i = 2; i < pow(p,1.5); ++i){
+    for(int i = 2; i*i <= p; ++i){
         if(p%i==0 && p != i){
             return false;
         }
@@ -70,24 +72,17 @@ void print2dVec(vector<vector<ll>> v){
     }
 }
 
-//gives all factors for a number (including non prime)
-void seive(set<ll>&v, ll n){
-         v.insert(n);
-         for(int i=2;i*i<=n;i++){
-            if(n%i==0) {
-                v.insert(i);
-                if(i!=n/i) v.insert(n/i);
-         }
-     }
-} 
-
-// void dfs(int curr, int par){
-//     for(int child : path[curr]){
-//         if(child == par)continue;
-//         dfs(child,curr);
-//     }
-// }
-//useful functions end
+void primeFactors(ll x){
+    vll fac;
+    for(ll i=2;i*i<=x;i++){
+        if(x%i==0){
+            while(x%i==0){
+                fac.push_back(i);
+                x/=i;
+            }
+        }
+    }
+}
 
 bool check(ll val){
     return false;
@@ -103,6 +98,18 @@ ll binsearch(ll low, ll high){
     }
     return low; //change this to high for upper bound (if element found then low and high both are correct)
 }
+
+ll findLCM(ll a, ll b){
+    for(ll i = min(a,b); i <= a*b; ++i){
+        if(i%a == 0 && i%b == 0){
+            return i;
+        }
+    }
+    return -1;
+}
+
+
+//useful functions end
 
 int main(){
     IOS;    
