@@ -1,12 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 template <typename T> void print(T t) { cout<<t<<endl; }    
-#define rep(i, a, b) for (int i = (a); i <= int(b); i++)
 #define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);cout<<fixed; cout<<setprecision(10);
 #define loop0(i,n) for(int i=0; i<n; i++)
 #define loop1(i,n) for(int i=1; i<=n; i++)
-#define FOR(i,a,b)      for(int i=(a);i<(b);++i)
-#define DFOR(i,a,b)     for(int i=(a);i>=(b);--i)
 #define printVec(vec) for(int i = 0; i < vec.size(); ++i)cout<<vec[i]<<" "; cout<<endl
 #define ll long long
 #define vi vector<int>
@@ -24,7 +21,6 @@ ll n = 0, t = 0;
 ll small = -1e18, big = 1e18;
 const ll mod=1000000007;
 map<ll,ll> occ;
-const ll N = 2e5;
 map<pair<ll,ll>,ll> occP;
 // vector<vector<ll>> path(N);
 //global variables end  
@@ -63,9 +59,10 @@ bool isprime(ll p){
 }
 
 void print2dVec(vector<vector<ll>> v){
-    FOR(i, 0, v.size()){
+    for(int i = 0; i < v.size(); ++i){
         cout<<i<<" : ";
-        FOR(j, 0, v[i].size()){
+        for(int j = 0; j < v[i].size(); ++j)
+        {
             cout<<v[i][j]<<" ";
         }
         print("");
