@@ -19,7 +19,7 @@ template <typename T> void print(T t) { cout<<t<<endl; }
 
 ll n = 0, t = 0;
 ll small = -1e18, big = 1e18;
-const ll mod=1000000007;
+const ll mod=1e9+7;
 map<ll,ll> occ;
 map<pair<ll,ll>,ll> occP;
 // vector<vector<ll>> path(N);
@@ -104,9 +104,8 @@ ll findLCM(ll a, ll b){
     }
     return -1;
 }
-
-
 //useful functions end
+
 
 int main(){
     IOS;    
