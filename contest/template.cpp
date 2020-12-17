@@ -25,22 +25,26 @@ map<pair<ll,ll>,ll> occP;
 // vector<vector<ll>> path(N);
 //global variables end  
 
-ll factorial(int n){
-    long long ans = 1;
-    for(int i = 1; i <= n; ++i){
-        ans*=i;
-    }
+void print2dVec(vector<vector<ll>> v){for(int i = 0; i < v.size(); ++i){cout<<i<<" : ";for(int j = 0; j < v[i].size(); ++j){cout<<v[i][j]<<" ";}print("");}}
+
+ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }
     return ans;
 }
 
-ll findGCD(ll a, ll b){
-    ll ans = 1;
-    for(int i = 1; i <= min(a,b); ++i){
-        if(a%i == 0 && b%i == 0){
-            ans = i;
-        }
-    }
+ll findGCD(ll a, ll b){ll ans = 1; for(int i = 1; i <= min(a,b); ++i){ if(a%i == 0 && b%i == 0){ans = i;}}
     return ans;
+}
+
+ll findLCM(ll a, ll b){for(ll i = min(a,b); i <= a*b; ++i){if(i%a == 0 && i%b == 0){return i;}}
+    return -1;
+}
+
+bool isprime(ll p){for(int i = 2; i*i <= p; ++i){if(p%i==0 && p != i){return false;}}
+    return true;
+}
+
+vll primeFactors(ll x){vll fac;for(ll i=2;i*i<=x;i++){if(x%i==0){while(x%i==0){fac.push_back(i);x/=i;}}}
+    return fac;
 }
 
 bool sortVec( const vector<ll>& v1, const vector<ll>& v2 ) { 
@@ -49,61 +53,14 @@ bool sortVec( const vector<ll>& v1, const vector<ll>& v2 ) {
  return v1[0] < v2[0]; 
 } 
 
-bool isprime(ll p){
-    for(int i = 2; i*i <= p; ++i){
-        if(p%i==0 && p != i){
-            return false;
-        }
-    }
-    return true;
-}
-
-void print2dVec(vector<vector<ll>> v){
-    for(int i = 0; i < v.size(); ++i){
-        cout<<i<<" : ";
-        for(int j = 0; j < v[i].size(); ++j)
-        {
-            cout<<v[i][j]<<" ";
-        }
-        print("");
-    }
-}
-
-void primeFactors(ll x){
-    vll fac;
-    for(ll i=2;i*i<=x;i++){
-        if(x%i==0){
-            while(x%i==0){
-                fac.push_back(i);
-                x/=i;
-            }
-        }
-    }
-}
-
 bool check(ll val){
     return false;
 }
-ll binsearch(ll low, ll high){
-    while(low < high){
-        ll mid = (low+high)/2;
-        if(check(mid)){
-            high = mid;
-        }else{
-            low = mid+1;
-        }
-    }
+ll binsearch(ll low, ll high){while(low < high){ll mid = (low+high)/2;if(check(mid)){high = mid;}else{low = mid+1;}}
     return low; //change this to high for upper bound (if element found then low and high both are correct)
 }
 
-ll findLCM(ll a, ll b){
-    for(ll i = min(a,b); i <= a*b; ++i){
-        if(i%a == 0 && i%b == 0){
-            return i;
-        }
-    }
-    return -1;
-}
+
 //useful functions end
 
 
