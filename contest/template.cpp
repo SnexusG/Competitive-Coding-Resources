@@ -56,7 +56,14 @@ bool sortVec( const vector<ll>& v1, const vector<ll>& v2 ) {
 bool check(ll val){
     return false;
 }
-ll binsearch(ll low, ll high){while(low < high){ll mid = (low+high)/2;if(check(mid)){high = mid;}else{low = mid+1;}}
+ll binsearch(ll low, ll high){
+    while(low < high){
+        ll mid = (low+high)/2;
+        if(check(mid)){high = mid;
+        }else{
+            low = mid+1;
+            }
+    }
     return low; //change this to high for upper bound (if element found then low and high both are correct)
 }
 
