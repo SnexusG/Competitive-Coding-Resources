@@ -70,9 +70,8 @@ ll binsearch(ll low, ll high){
 
 //useful functions end
 
-
 int main(){
-    IOS;    
+    IOS;   
     cin>>n;
     return 0;
 }
