@@ -22,12 +22,11 @@ ll small = -1e18, big = 1e18;
 const ll mod=1e9+7;
 map<ll,ll> occ;
 map<pair<ll,ll>,ll> occP;
+const int N = 1e5+5;
 // vector<vector<ll>> path(N);
 //global variables end  
 
 void print2dVec(vector<vector<ll>> v){for(int i = 0; i < v.size(); ++i){cout<<i<<" : ";for(int j = 0; j < v[i].size(); ++j){cout<<v[i][j]<<" ";}print("");}}
-
-void printSet(set<int> s){for(auto itr = s.begin(); itr != s.end(); ++itr){cout<<*itr<<" ";}}
 
 ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }
     return ans;
@@ -71,9 +70,34 @@ ll binsearch(ll low, ll high){
 
 
 //useful functions end
+int primes[N];
+
+void sieve(){
+    
+}
 
 int main(){
-    IOS;   
-    cin>>n;
+    IOS; 
+
+    // t = 3000;
+    // while(t--){
+    //     int d;  
+    //     d = 10000;
+    //     int prev = 1;
+    //     int a = 2, b = 3;
+    //     for(int i = d; i < 1e5; ++i){
+    //         if(isprime(i) && (i - prev) >= d){
+    //             if(prev == 1){
+    //                 a = i;
+    //                 prev = a;
+    //             }else{
+    //                 b = i;
+    //                 break;
+    //             }
+    //         }
+    //     }
+    //     //cout<<a*b<<endl;
+    // }
+    // cout<<"Done\n";
     return 0;
 }
