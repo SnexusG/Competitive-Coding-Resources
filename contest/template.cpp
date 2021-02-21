@@ -15,7 +15,7 @@ template <typename T> void print(T t) { cout<<t<<endl; }
 //ascii of a is 97
 //creating a vector with elements : vector<long long> arr{1,2,3,4};
 //converting string to num : stringstream geek(s); int x = 0; geek >> x; 
-    
+//long long limit to 1e14
 
 ll n = 0, t = 0;
 ll small = -1e18, big = 1e18;
