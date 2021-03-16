@@ -27,7 +27,7 @@ map<pair<ll,ll>,ll> occP;
 
 void print2dVec(vector<vector<ll>> v){for(int i = 0; i < v.size(); ++i){cout<<i<<" : ";for(int j = 0; j < v[i].size(); ++j){cout<<v[i][j]<<" ";}print("");}}
 
-void printSet(set<int> s){for(auto itr = s.begin(); itr != s.end(); ++itr){cout<<*itr<<" ";}}
+void printSet(set<ll> s){for(auto itr = s.begin(); itr != s.end(); ++itr){cout<<*itr<<" ";}}
 
 ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }
     return ans;
