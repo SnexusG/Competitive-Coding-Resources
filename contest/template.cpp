@@ -6,23 +6,14 @@ template <typename T> void print(T t) { cout<<t<<endl; }
 #define loop1(i,n) for(int i=1; i<=n; i++)
 #define printVec(vec) for(int i = 0; i < vec.size(); ++i)cout<<vec[i]<<" "; cout<<endl
 #define ll long long
-#define vi vector<int>
 #define vll vector<ll>
-#define vii vector<pair<int,int>>
-#define vlll vector<pair<ll,lla>>
 #define get(a, n)    for(ll it = 0; it < n; it++)    cin>>a[it];
 //creating a 2d vector containing n vectors of size m each : vector<vll> vec(n, vll(m,0));
 //ascii of a is 97
 //creating a vector with elements : vector<long long> arr{1,2,3,4};
 //converting string to num : stringstream geek(s); int x = 0; geek >> x; 
-//long long limit to 1e14
 
-ll n = 0, t = 0;
-ll small = -1e18, big = 1e18;
-const ll mod=1e9+7;
-map<ll,ll> occ;
-map<pair<ll,ll>,ll> occP;
-// vector<vector<ll>> path(N);
+ll n = 0, t = 0; ll small = -1e18, big = 1e18; const ll mod=1e9+7; map<ll,ll> occ; map<pair<ll,ll>,ll> occP;
 //global variables end  
 
 void print2dVec(vector<vector<ll>> v){for(int i = 0; i < v.size(); ++i){cout<<i<<" : ";for(int j = 0; j < v[i].size(); ++j){cout<<v[i][j]<<" ";}print("");}}
@@ -68,7 +59,6 @@ ll binsearch(ll low, ll high){
     }
     return low; //change this to high for upper bound (if element found then low and high both are correct)
 }
-
 
 //useful functions end
 
