@@ -36,10 +36,6 @@ bool isprime(ll p){for(int i = 2; i*i <= p; ++i){if(p%i==0 && p != i){return fal
     return true;
 }
 
-vll primeFactors(ll x){vll fac;for(ll i=2;i*i<=x;i++){if(x%i==0){while(x%i==0){fac.push_back(i);x/=i;}}}
-    return fac;
-}
-
 bool sortVec( const vector<ll>& v1, const vector<ll>& v2 ) { 
 //change 0 to 1 to sort as per second column
 //change < sign to > sign to sort in descending 
