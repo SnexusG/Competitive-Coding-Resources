@@ -24,10 +24,7 @@ ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }
     return ans;
 }
 
-ll findGCD(ll a,ll b){
-    if(b==0)return a;
-    return findGCD(b, a%b);
-}
+ll findGCD(ll a,ll b){if(b==0)return a;return findGCD(b, a%b);}
 
 // lcm(a,b) = (a*b)/gcd(a,b)
 
