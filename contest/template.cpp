@@ -24,13 +24,12 @@ ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }
     return ans;
 }
 
-ll findGCD(ll a, ll b){ll ans = 1; for(int i = 1; i <= min(a,b); ++i){ if(a%i == 0 && b%i == 0){ans = i;}}
-    return ans;
+ll findGCD(ll a,ll b){
+    if(b==0)return a;
+    return findGCD(b, a%b);
 }
 
-ll findLCM(ll a, ll b){for(ll i = min(a,b); i <= a*b; ++i){if(i%a == 0 && i%b == 0){return i;}}
-    return -1;
-}
+// lcm(a,b) = (a*b)/gcd(a,b)
 
 bool isprime(ll p){for(int i = 2; i*i <= p; ++i){if(p%i==0 && p != i){return false;}}
     return true;
