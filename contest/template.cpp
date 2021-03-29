@@ -13,7 +13,7 @@ template <typename T> void print(T t) { cout<<t<<endl; }
 //creating a vector with elements : vector<long long> arr{1,2,3,4};
 //converting string to num : stringstream geek(s); int x = 0; geek >> x; 
 
-ll n = 0, t = 0; ll small = -1e18, big = 1e18; const ll mod=1e9+7; map<ll,ll> occ; map<pair<ll,ll>,ll> occP;
+ll n = 0, t = 0; ll small = -1e18, big = 1e18; const ll mod=1e9+7; map<ll,ll> occ;
 //global variables end  
 
 void print2dVec(vector<vector<ll>> v){for(int i = 0; i < v.size(); ++i){cout<<i<<" : ";for(int j = 0; j < v[i].size(); ++j){cout<<v[i][j]<<" ";}print("");}}
