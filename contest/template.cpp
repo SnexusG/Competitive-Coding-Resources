@@ -17,21 +17,15 @@ void print2dVec(vector<vector<ll>> v){for(int i = 0; i < v.size(); ++i){cout<<i<
 
 void printSet(set<ll> s){for(auto itr = s.begin(); itr != s.end(); ++itr){cout<<*itr<<" ";}}
 
-ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }
-    return ans;
-}
+ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }return ans;}
 
 ll findGCD(ll a,ll b){if(b==0)return a;return findGCD(b, a%b);}
 
 // lcm(a,b) = (a*b)/gcd(a,b)
 
-bool isprime(ll p){for(int i = 2; i*i <= p; ++i){if(p%i==0 && p != i){return false;}}
-    return true;
-}
+bool isprime(ll p){for(int i = 2; i*i <= p; ++i){if(p%i==0 && p != i){return false;}}return true;}
 
-bool sortVec( const vector<ll>& v1, const vector<ll>& v2 ) { 
-return v1[0] < v2[0]; 
-} 
+bool sortVec( const vector<ll>& v1, const vector<ll>& v2 ) { return v1[0] < v2[0]; } 
 
 //useful functions end
 
