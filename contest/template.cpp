@@ -19,9 +19,7 @@ void printSet(set<ll> s){for(auto itr = s.begin(); itr != s.end(); ++itr){cout<<
 
 ll factorial(int n){long long ans = 1; for(int i = 1; i <= n; ++i){ ans*=i; }return ans;}
 
-ll findGCD(ll a,ll b){if(b==0)return a;return findGCD(b, a%b);}
-
-// lcm(a,b) = (a*b)/gcd(a,b)
+// lcm(a,b) = (a*b)/__gcd(a,b)
 
 bool isprime(ll p){for(int i = 2; i*i <= p; ++i){if(p%i==0 && p != i){return false;}}return true;}
 
@@ -33,4 +31,4 @@ int main(){
     IOS;   
     cin>>n;
     return 0;
-}
+}   
